@@ -67,6 +67,10 @@ https://raw.githubusercontent.com/fenix79-newbie/akagi-adblock-android/main/filt
 2. 漏拦广告或跳转发生的场景（开屏 / 插屏 / 点链接后跳转…）
 3. 如方便：AdGuard 最近请求日志里相关域名，或抓包域名
 
+## 关于 AI 协助
+
+本仓库的规则由 AI 协助整理，并参考公开的信誉过滤列表。如果发现误拦（某个 App 或网站打不开、功能异常）或漏拦，欢迎开 Issue 反馈，会尽快修正。
+
 ## 许可
 
 MIT。规则域名来自公开信誉列表整理（含 AdGuard MobileFilter、anti-AD、HaGeZi 等），仅作补充，请遵守各上游项目许可与使用条款。
