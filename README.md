@@ -57,7 +57,8 @@ https://raw.githubusercontent.com/fenix79-newbie/akagi-adblock-android/main/filt
 - PropellerAds / PopAds / Adsterra / ExoClick / Clickadu / HilltopAds 等弹窗与跳转网络
 - 常见滥用短链跳转（如 adf.ly、ouo.io、linkvertise 等，不含 bit.ly / t.co）
 - `utm_*`、`fbclid`、`gclid`、`msclkid`、`click_id` 等追踪参数剥离
-- 对微信/Google/Apple 登录支付等核心域名有 `@@` 放行例外
+- 对微信登录、Google/Apple 登录支付等核心域名有 `@@` 放行例外（微信支付不放行）
+- 拦截微信朋友圈广告、公众号文章底部广告和广告上报域名
 
 ## 漏拦了怎么办？
 

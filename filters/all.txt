@@ -1,9 +1,9 @@
 ! Title: Akagi AdBlock Android (All)
 ! Description: Combined supplementary filter: mobile ad SDKs + redirect/link trackers for AdGuard for Android. Subscribe to this URL. Supplement to built-in lists only.
-! Version: 1.0.0
+! Version: 1.1.0
 ! Expires: 1 day
 ! Homepage: https://github.com/fenix79-newbie/akagi-adblock-android
-! Last modified: 2026-11-09 10:28 +0800 (Asia/Kuala_Lumpur)
+! Last modified: 2026-11-10 09:55 +0800 (Asia/Kuala_Lumpur)
 ! License: MIT
 !
 ! ===== Part 1: mobile-ads =====
@@ -56,6 +56,17 @@
 ||adsmind.ugdtimg.com^
 ||pgdt.ugdtimg.com^
 ||ad.tencentmusic.com^
+! --- WeChat / 微信 (朋友圈广告、公众号文章广告、上报) ---
+||wxs.qq.com^
+||wxsnsdy.tc.qq.com^
+||wxsnsdy.video.qq.com^
+||adsmind.apdcdn.tc.qq.com^
+||as.weixin.qq.com^
+||badjs.weixinbridge.com^
+||gdtimg.com^
+||ugdtimg.com^
+||mp.weixin.qq.com/mp/getappmsgad
+||mp.weixin.qq.com/mp/ad_
 ! --- Kuaishou / 快手联盟 ---
 ||open.e.kuaishou.com^
 ||open.e.kuaishou.cn^
@@ -208,8 +219,6 @@
 ||ufz.doesxyz.com^
 ||mo.freeindoapp.com^
 ! --- Allow exceptions (avoid breaking core services) ---
-@@||wx.tenpay.com^
-@@||pay.weixin.qq.com^
 @@||api.weixin.qq.com^
 @@||open.weixin.qq.com^
 @@||accounts.google.com^
